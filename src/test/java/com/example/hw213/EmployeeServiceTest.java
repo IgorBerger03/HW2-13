@@ -157,7 +157,7 @@ public class EmployeeServiceTest {
     }
     public static Stream<Arguments> params(){
         return Stream.of(
-                Arguments.of( "Василий","Земсков",1, 45_000),
+                Arguments.of( "Василий", "Земсков",1, 45_000),
                 Arguments.of("Диана", "Черных",2,55_000),
                 Arguments.of("Полина","Борисова",1,35_000)
         );
